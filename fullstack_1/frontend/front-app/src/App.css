@@ -1,6 +1,3 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -10,17 +7,31 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /*justify-content: center;*/
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.TabContent {
+    padding: 24px;
+}
+.recharts-cartesian-axis-tick {
+    font-size: 1.4rem;
+    font-family: Roboto, sans-serif;
+}
+
+.ListContainer {
+    display: flex;
+    align-items: center;
+    width: 70%;
 }
 
 @keyframes App-logo-spin {
